@@ -102,7 +102,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I'm a Computer Scientist by training, but also an aficionado of the arts and humanities by nature. In my spare time, you can catch me watching/playing football or tennis, 
-  playing the piano, or wrapping my head around a new language. I'm also a coffee enthusiast, and a qualified barista.`,
+  playing the piano, or trying to wrap my head around a new language. I'm also a coffee enthusiast, and a qualified barista.`,
   aboutItems: [
     {label: 'Location', text: 'London, UK; Seoul, South Korea', Icon: MapIcon},
     {label: 'Age', text: '22', Icon: CalendarIcon},
@@ -193,7 +193,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'FoodSnap',
-    description: 'An image-recognition based calorie tracker. Accepted at CVPR 2023 for a Demo.',
+    description: 'An image-recognition based calorie tracker. Imagine an app that allows you to take a picture of a food item and it would tell you how many calories it contained? Accepted at CVPR 2023 for a Demo.',
     url: 'https://foodsn.app',
     image: porfolioImage1,
   },

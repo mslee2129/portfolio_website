@@ -199,7 +199,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'MindMuse - Using Generative Models for Music Reconstruction from the Brain',
-    description: 'This is an on-going project, check back for updates!',
+    description: 'This is an on-going project, check again later for updates!',
     image: porfolioImage2,
   },
 ];
@@ -232,7 +232,7 @@ export const education: TimelineItem[] = [
         <li style={{paddingLeft: '1.5em', listStyle: 'none'}}>
           • Accepted for a Demo at <strong>CVPR 2023</strong>.
         </li>
-        <li> • Thesis: Music Reconstruction from EEG signals using Generative Models</li>
+        <li> • <strong>Thesis</strong>: Music Reconstruction from EEG signals using Generative Models</li>
       </ul>
     ),
   },
@@ -247,7 +247,7 @@ export const education: TimelineItem[] = [
           • Graduated with <strong>First Class Honours</strong>
         </li>
         <li> • Modules in Computer Science, Psychology, and Philosophy</li>
-        <li> • Thesis: AI in Art: The Foundations of Validity of Artificial Creativity</li>
+        <li> • <strong>Thesis</strong>: AI in Art: The Foundations of Validity of Artificial Creativity</li>
       </ul>
     ),
   },

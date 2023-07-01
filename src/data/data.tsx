@@ -101,13 +101,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm a Computer Scientist by training, but also am an aficionado of the arts and humanities by nature. In my spare time, you can catch me watching/playing football or tennis, 
-  or listening to (a rather wide variety of) music. I'm also a coffee enthusiast, and a qualified barista.`,
+  description: `I'm a Computer Scientist by training, but also an aficionado of the arts and humanities by nature. In my spare time, you can catch me watching/playing football or tennis, 
+  playing the piano, or wrapping my head around a new language. I'm also a coffee enthusiast, and a qualified barista.`,
   aboutItems: [
     {label: 'Location', text: 'London, UK; Seoul, South Korea', Icon: MapIcon},
     {label: 'Age', text: '22', Icon: CalendarIcon},
     {label: 'Nationality', text: 'South Korean', Icon: FlagIcon},
-    {label: 'Interests', text: 'Football, Tennis, Music, Languages, Coffee', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Football, Tennis, Music, Languages', Icon: SparklesIcon},
     {label: 'Study', text: 'Imperial College London, University College London', Icon: AcademicCapIcon},
     // {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
   ],
@@ -210,7 +210,7 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'October 2022 - September 2023',
-    location: 'Imperial College London',
+    location: 'Imperial College London - London, UK',
     title: 'Master of Science (MSc) in Computer Science',
     content: (
       <ul>
@@ -227,9 +227,6 @@ export const education: TimelineItem[] = [
           • Collaborated with teammates to deliver a full-stack web app, with a machine learning backend.
         </li>
         <li style={{paddingLeft: '1.5em', listStyle: 'none'}}>
-          • Led the Frontend team to meet weekly sprint goals and ensure on-time delivery.
-        </li>
-        <li style={{paddingLeft: '1.5em', listStyle: 'none'}}>
           • Accepted for a Demo at <strong>CVPR 2023</strong>.
         </li>
         <li> • <strong>Thesis</strong>: Music Reconstruction from EEG signals using Generative Models</li>
@@ -238,7 +235,7 @@ export const education: TimelineItem[] = [
   },
   {
     date: 'September 2019 - June 2022',
-    location: 'University College London',
+    location: 'University College London - London, UK',
     title: 'Bachelor of Arts and Sciences (BASc) - Sciences and Engineering',
     content: (
       <ul>
@@ -247,17 +244,17 @@ export const education: TimelineItem[] = [
           • Graduated with <strong>First Class Honours</strong>
         </li>
         <li> • Modules in Computer Science, Psychology, and Philosophy</li>
-        <li> • <strong>Thesis</strong>: AI in Art: The Foundations of Validity of Artificial Creativity</li>
+        <li> • <strong>Thesis</strong>: AI in Art: The Foundations and Validity of Artificial Creativity</li>
       </ul>
     ),
   },
   {
-    date: 'September 2017 - June 2019',
-    location: 'Anglo American School of Moscow',
+    date: 'August 2017 - May 2019',
+    location: 'Anglo American School of Moscow - Moscow, Russia',
     title: 'International Baccalaureate',
     content: (
       <p>
-        40 points - <strong>High Level</strong>: Mathematics, English, Economics, Physics;{' '}
+        • 40 points - <strong>High Level</strong>: Mathematics, English, Economics, Physics;{' '}
         <strong>Standard Level</strong>: Russian, Music
       </p>
     ),
@@ -272,7 +269,7 @@ export const experience: TimelineItem[] = [
     content: (
       <ul>
         <li>
-          • Researched the viability of using VAEs in real-life optimization problems, using tools such as Pytorch.
+          • Assisted in researching the viability of using VAEs in real-life optimization problems, using tools such as Pytorch.
         </li>
         <li>• Developed strong communication and organizational skills through working on group projects.</li>
       </ul>
@@ -285,7 +282,7 @@ export const experience: TimelineItem[] = [
     content: (
       <ul>
         <li>
-          • Organised and delivered daily lectures in Python, Java and C++ programming for secondary students with no
+          • Organised and delivered daily lectures in Python, Java and C++ programming for students of various age groups who had no
           prior experience.
         </li>
         <li>

@@ -1,11 +1,11 @@
 import {StaticImageData} from 'next/image';
 import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
 
-import {IconProps} from '../components/Icon/Icon';
+import {IconProps} from '../components/Icon/Icon';                                       
 
 export interface HomepageMeta {
   title: string;
-  description: string;
+  description?: string;
   ogImageUrl?: string;
   twitterCardType?: 'summary' | 'summary_large';
   twitterTitle?: string;
@@ -21,7 +21,7 @@ export interface HomepageMeta {
  * Hero section
  */
 export interface Hero {
-  imageSrc: string;
+  imageSrc: string;                     
   name: string;
   description: JSX.Element;
   actions: HeroActionItem[];

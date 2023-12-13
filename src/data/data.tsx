@@ -46,7 +46,6 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Jason Lee Resume',
-  description: "Resume - built with Tim Baker's react resume template",
 };
 
 /**
@@ -199,9 +198,16 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'MindMuse - Using Generative Models for Music Reconstruction from the Brain',
-    description: 'This is an on-going project, check again later for updates!',
+    description: "My Master's thesis, titled 'Decoding Music from the Brain using Generative Models'",
+    url:'https://github.com/mslee2129/imperial_thesis/tree/master',
     image: porfolioImage2,
   },
+  // {
+  //   title: 'Music Compositions',
+  //   description: 'A link to my MuseScore projects',
+  //   url: '',
+  //   image: porfolioImage3,
+  // },
 ];
 
 /**
@@ -209,11 +215,15 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'October 2022 - September 2023',
+    date: 'October 2022 - October 2023',
     location: 'Imperial College London - London, UK',
     title: 'Master of Science (MSc) in Computer Science',
     content: (
       <ul>
+      <li>
+          {' '}
+          • Graduated with <strong>Distinction</strong>
+        </li>
         <li>
           {' '}
           • Modules in <strong>Machine Learning</strong>, <strong>Software Engineering</strong>, and{' '}

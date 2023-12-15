@@ -16,7 +16,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 // import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 // import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 // import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
@@ -202,12 +202,12 @@ export const portfolioItems: PortfolioItem[] = [
     url:'https://github.com/mslee2129/imperial_thesis/tree/master',
     image: porfolioImage2,
   },
-  // {
-  //   title: 'Music Compositions',
-  //   description: 'A link to my MuseScore projects',
-  //   url: '',
-  //   image: porfolioImage3,
-  // },
+  {
+    title: 'Music Compositions',
+    description: 'A link to my MuseScore projects',
+    url: 'https://musescore.com/user/17427126',
+    image: porfolioImage3,
+  },
 ];
 
 /**

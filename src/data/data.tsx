@@ -193,7 +193,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'FoodSnap',
     description: 'An image-recognition based calorie tracker. Imagine an app that allows you to take a picture of a food item and it would tell you how many calories it contained? Accepted at CVPR 2023 for a Demo.',
-    url: 'https://foodsn.app',
+    url: 'https://github.com/mslee2129/FoodSnap_frontend',
     image: porfolioImage1,
   },
   {
@@ -203,9 +203,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'Music Compositions',
-    description: 'A link to my MuseScore projects',
-    url: 'https://musescore.com/user/17427126',
+    title: 'C++ Audio Analyser',
+    description: 'A Personal Audio Analysis Application using C++',
+    url: 'https://github.com/mslee2129/AudioAnalyser',
     image: porfolioImage3,
   },
 ];

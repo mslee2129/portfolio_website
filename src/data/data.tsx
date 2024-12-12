@@ -104,7 +104,7 @@ export const aboutData: About = {
   playing the piano, or trying to wrap my head around a new language. I'm also a coffee enthusiast, and a qualified barista.`,
   aboutItems: [
     {label: 'Location', text: 'London, UK; Seoul, South Korea', Icon: MapIcon},
-    {label: 'Age', text: '22', Icon: CalendarIcon},
+    {label: 'Age', text: '23', Icon: CalendarIcon},
     {label: 'Nationality', text: 'South Korean', Icon: FlagIcon},
     {label: 'Interests', text: 'Football, Tennis, Music, Languages', Icon: SparklesIcon},
     {label: 'Study', text: 'Imperial College London, University College London', Icon: AcademicCapIcon},
@@ -197,7 +197,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'MindMuse - Using Generative Models for Music Reconstruction from the Brain',
+    title: 'MindMuse - Decoding Music from the Brain using Generative Models',
     description: "My Master's thesis, titled 'Decoding Music from the Brain using Generative Models'",
     url:'https://github.com/mslee2129/imperial_thesis/tree/master',
     image: porfolioImage2,
@@ -239,7 +239,7 @@ export const education: TimelineItem[] = [
         <li style={{paddingLeft: '1.5em', listStyle: 'none'}}>
           • Accepted for a Demo at <strong>CVPR 2023</strong>.
         </li>
-        <li> • <strong>Thesis</strong>: Music Reconstruction from EEG signals using Generative Models</li>
+        <li> • <strong>Thesis</strong>: Decoding Music from the Brain using Generative Models</li>
       </ul>
     ),
   },
